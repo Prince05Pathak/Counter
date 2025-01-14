@@ -30,12 +30,10 @@ class DashBoardScreen extends StatelessWidget{
 
     return  Scaffold(
       appBar: AppBar(
-        title:Text("Dashboard"),
+        title:Text("WHatsApp", style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold,color: Colors.green),),
       ),
 
-      body: Row(
-          child: Text()
-      ),
+      body: Text('Hello World')
     );
 
   }
